@@ -1,4 +1,5 @@
 export class PostsStateModel{
+    selectPost:Posts [];
     posts : Posts[];
 }
 

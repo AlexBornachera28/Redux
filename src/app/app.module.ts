@@ -11,16 +11,23 @@ import { environment } from 'src/environments/environment';
 import { PostsComponent } from './components/posts/posts/posts.component';
 import { NuevoPostComponent } from './components/nuevo-post/nuevo-post.component';
 import { PostsState } from './store/post/posts.sate';
+import { TodosComponent } from './components/todos/todos.component';
 
 import { FormsModule } from '@angular/forms';
 import { SearchComponent } from './components/search/search.component';
+import { HomeComponent } from './components/home/home.component';
+import { from } from 'rxjs';
+import { DeletePostComponent } from './components/delete-post/delete-post.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostsComponent,
     NuevoPostComponent,
-    SearchComponent
+    SearchComponent,
+    HomeComponent,
+    TodosComponent,
+    DeletePostComponent
   ],
   imports: [
     BrowserModule,

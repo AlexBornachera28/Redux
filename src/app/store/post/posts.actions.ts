@@ -12,6 +12,6 @@ export class RemovePost {
 
 export class SearchPost {
     static readonly type = '[Post] Search'
-    constructor(public payload:string ) {}
+    constructor(public payload:any ) {}
 }
 
